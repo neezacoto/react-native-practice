@@ -4,10 +4,7 @@ import { SafeAreaView } from 'react-native';
 import styles from './styles'
 function PhoneContainer(props) {
     return (
-        <SafeAreaView style={[
-            styles.container,
-            {...props.style}
-            ]}>
+        <SafeAreaView style={styles.container}>
         { props.children }
         </SafeAreaView>
     );

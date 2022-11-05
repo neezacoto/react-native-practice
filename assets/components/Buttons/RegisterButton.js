@@ -6,7 +6,7 @@ import colors from '../../config/colors';
 function RegisterButton(props) {
     return (
         <View style={{...props.style}}>
-           <WideButton title="REGISTER" style={{backgroundColor: colors.secondary}} />
+           <WideButton title="REGISTER" style={{backgroundColor: colors[props.color]}} />
         </View>
         );
     }

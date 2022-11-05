@@ -12,11 +12,7 @@ const styles = StyleSheet.create({
         
     },
     image :{
-        borderTopLeftRadius: 20,
-        borderTopRightRadius: 20,
-        height: undefined,
-        width: undefined,
-        flex: 1,
+        height: 100
         
     },
     textContainer: {

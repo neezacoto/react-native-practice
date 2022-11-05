@@ -1,22 +1,22 @@
 import React from 'react';
-import { Image, Text, View } from 'react-native';
+import { Image, Text, View, TouchableOpacity } from 'react-native';
 
 import styles from './styles';
 
 function Card(props) {
     return (
-        <View style={styles.cardContainer}>
+        <TouchableOpacity style={styles.cardContainer}>
             <View style={styles.imageContainer}>
                 <Image 
                 style={styles.image}
-                source={require('../../jacket.jpg')}/>
+                source={props.image}/>
 
             </View>
-            <View>
-                <Text>Title</Text>
-                <Text>sub title</Text>
+            <View style={styles.textContainer}>
+                <Text style={styles.title}>{props.title}</Text>
+                <Text style={styles.subText}>{props.subtext}</Text>
             </View>
-        </View>
+        </TouchableOpacity>
     );
 }
 

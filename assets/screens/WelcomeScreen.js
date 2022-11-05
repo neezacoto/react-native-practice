@@ -1,7 +1,7 @@
 import React from 'react';
 import { Image, ImageBackground, StyleSheet, View, Text } from 'react-native';
-import LoginButton from '../components/AppButton.js/LoginButton';
-import RegisterButton from '../components/AppButton.js/RegisterButton';
+import LoginButton from '../components/Buttons/LoginButton';
+import RegisterButton from '../components/Buttons/RegisterButton';
 
 function WelcomeScreen(props) {
     return (
@@ -17,8 +17,8 @@ function WelcomeScreen(props) {
             </View>
             <View style={styles.buttonsContainer}>
                 
-                <LoginButton style={{marginBottom: 20}}/>
-                <RegisterButton />
+                <LoginButton style={{marginVertical: 26}}/>
+                <RegisterButton color="secondary"/>
             </View>
 
         </ImageBackground>
