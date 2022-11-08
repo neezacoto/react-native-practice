@@ -11,8 +11,8 @@ import screen from '../components/Screen';
 const initialMessages = [
     {
         id: 1,
-        title: 'T1',
-        description: 'D1',
+        title: 'esontuhaoesnuhontehuoehurcoaehrcoherchoecuhoeh roherhuoehruaoreh oeu aoheruc oherchurcoehecou',
+        description: ' anesuhan oetuh onetuh aontuh aonut haonethuoenu thaenuta huntoe hnut aohen ahoenheount',
         image: require('../mosh.jpg')
     },
     {
@@ -56,7 +56,7 @@ function MessagesScreen(props) {
                                 {
                                     id: 2,
                                     title: 'T2',
-                                    description: 'D2',
+                                    description: 'Im the updated version',
                                     image: require('../mosh.jpg'),
                                 },
                             ])
