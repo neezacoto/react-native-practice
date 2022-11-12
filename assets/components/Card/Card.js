@@ -5,7 +5,7 @@ import styles from './styles';
 
 function Card(props) {
     return (
-        <TouchableOpacity style={styles.cardContainer}>
+        <TouchableOpacity onPress={props.onPress} style={styles.cardContainer}>
             <View style={styles.imageContainer}>
                 <Image 
                 style={styles.image}

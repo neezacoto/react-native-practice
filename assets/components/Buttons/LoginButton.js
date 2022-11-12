@@ -8,7 +8,7 @@ function LoginButton(props) {
         <View style={{...props.style}}>
             <WideButton title="LOGIN" style={[
             {backgroundColor: colors.primary},
-        ]} />
+        ]} onPress={props.onPress}/>
         </View>
         
     );

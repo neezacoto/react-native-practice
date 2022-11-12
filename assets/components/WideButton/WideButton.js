@@ -8,7 +8,9 @@ function WideButton(props) {
         style={[
             styles.button,
             {...props.style}
-        ]}>
+        ]}
+        onPress={props.onPress}
+        >
             <Text style={styles.text}>{props.title}</Text>
         </TouchableOpacity>
     );

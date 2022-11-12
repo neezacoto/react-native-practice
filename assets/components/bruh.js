@@ -1,9 +1,10 @@
 import React from 'react';
 import { View } from 'react-native';
 
-function Test(props) {
+import screen from './Screen';
+function bruh(props) {
         return (
-            <View style={screen.statusBar} >
+            <View style={styles}>
                   
             </View>
         );
@@ -13,4 +14,4 @@ const styles = StyleSheet.create({
 
 })
 
-export default Test;
+export default bruh;
